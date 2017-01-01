@@ -1,5 +1,5 @@
 <div class="avatar-zone">
-    <img id="img_id" src="<?php echo base_url("upload/existing_studnet_photo/$applicant->STUD_PHOTO"); ?>" alt="select photo" style="width: 180px; height: 160px;"/>
+    <img id="img_id" src="<?php echo base_url("upload/existing_studnet_photo/demo.png"); ?>" alt="select photo" style="width: 180px; height: 160px;"/>
 </div>
 <input type='file' name="photo" onchange="upload_img(this);" class="upload_btn">
 
